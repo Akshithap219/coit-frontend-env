@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../../base
+  - namespace.yaml
+
+images:
+  - name: coitlearning/coit-frontend
+    newName: coitlearning/coit-frontend
+    newTag: latest
+
+namespace: development
+
+commonLabels:
+  environment: development 
+
+nameSuffix: -development
