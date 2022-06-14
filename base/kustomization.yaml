@@ -3,7 +3,7 @@ kind: Kustomization
 
 resources:
 - ./coit-frontend-deployment.yaml
-- ./coit-frontend-service-lb
+- ./coit-frontend-service-lb.yaml
 images:
 - name: coitlearning/coit-frontend
   newTag: latest
