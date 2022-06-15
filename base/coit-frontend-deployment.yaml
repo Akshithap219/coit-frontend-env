@@ -23,7 +23,7 @@ spec:
       volumes:
         - name: nginx-root
           persistentVolumeClaim:
-            claimName: coit-frontend-fast
+           claimName: coit-frontend-fast
       containers:
         - image: coitlearning/coit-frontend:latest
           imagePullPolicy: IfNotPresent                         # 7
