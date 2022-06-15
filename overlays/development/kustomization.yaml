@@ -15,4 +15,4 @@ nameSuffix: -development
 commonLabels:
   environment: development 
 
-nameSuffix: -development
+namespace: development-fe
