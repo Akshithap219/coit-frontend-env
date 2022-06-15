@@ -10,7 +10,7 @@ images:
     newName: coitlearning/coit-frontend
     newTag: latest
 
-namespace: development
+nameSuffix: -development
 
 commonLabels:
   environment: development 
